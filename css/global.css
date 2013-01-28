@@ -13,6 +13,11 @@
 /* close commented backslash hack */
 
 /* Default Classes */
+
+body{
+	font-family: arial;
+}
+
 /* Middle Fix Content */
 .holder{
 	height: 905px;
@@ -45,4 +50,26 @@
 
 .content_left{
 	width: 848px;
+}
+
+/* Fonts */
+
+h1{
+	font-size: 24px;
+}
+
+h2{
+
+}
+
+h4{
+	font-size: 16px;
+}
+
+h5{
+	font-size: 13px;
+}
+
+p{
+
 }

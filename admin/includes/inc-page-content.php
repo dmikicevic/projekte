@@ -11,9 +11,4 @@
 			<h1>Home</h1>
 		<? } ?>
 	<? } ?>
-
-
-	<?php if (!isset($_GET['id'])) { ?>
-		<h1>Admin Login</h1>
-	<? } ?>
 </div>

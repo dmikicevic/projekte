@@ -10,7 +10,7 @@
 		<div class="wrapper cf">
 			<?php include '../../includes/inc-header.php'; ?>
 			<?php include '../includes/inc-menu.php'; ?>
-			<div class="content_left cf">
+			<div class="middle_fix cf">
 				<?php include '../includes/inc-page-content.php'; ?>
 			</div>
 			<?php include '../../includes/inc-footer.php'; ?>
