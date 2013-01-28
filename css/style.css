@@ -15,7 +15,9 @@
 	width: 250px;
 	height: 621px;
 	border-left: solid 2px black;
+}
 
-	position: relative;
-	top: -62px;
+.sidebar_right img{
+	width: 230px;
+	height: 230px;
 }

@@ -102,7 +102,17 @@ p{
 	border: solid 2px black;
 }
 
-.float_left{
+.content_left{
 	float: left;
-	width: 390px;
+	width: 160px;
+}
+
+.content_right{
+	float: left;
+	width: 215px;
+	margin-top: 15px;
+}
+
+.content_right input{
+	margin-top: 10px;
 }

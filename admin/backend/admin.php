@@ -3,7 +3,7 @@
 
 	session_start();
 
-	include  '../../functions/every_page_pruef.php'; 
+	include  '../../functions/every_page_pruef.php';
 ?>
 <html>
 <head>

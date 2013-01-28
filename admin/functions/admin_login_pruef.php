@@ -11,7 +11,7 @@
 		$_SESSION['name'] = $user;
 		$_SESSION['pass'] = $pass;
 
-		header("Location: $BASE_PATH/admin/backend/admin.php?id=adminHome");
+		header("Location: ../backend/admin.php?id=adminHome");
 	}
 
 	else{
