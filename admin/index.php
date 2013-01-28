@@ -14,9 +14,17 @@
 				<li><a href="<?= $BASE_PATH;?>index.php"><span>zur&uuml;ck zur Homepage</span></a></li>
 			</ul>
 			<div class="middle_fix cf">
-				<div class="login">
-					<h4>Login</h4><input type=""
-				</div>
+				<form method="post" action="../functions/login_pruef.php">
+					<div class="login">
+						<h4>Admin Login</h4>
+						<h5>User:</h5>
+						<input type="text" name="tbx_user" />
+						<h5>Password:</h5>
+						<input type="text" name="tbx_pass" />
+						<br />
+						<input type="submit" name="btn_login" value="Login" />
+					</div>
+				</form>
 			</div>
 			<?php include '../includes/inc-footer.php'; ?>
 		</div>

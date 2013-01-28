@@ -1,2 +1,2 @@
-<div class="middle_fix">
+<div class="middle_fix cf">
 </div>

@@ -1,4 +1,10 @@
-<?php include  '../../config.php'; ?>
+<?php 
+	include  '../../config.php';
+
+	session_start();
+
+	include  '../../functions/every_page_pruef.php'; 
+?>
 <html>
 <head>
 	<title></title>

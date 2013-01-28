@@ -1,4 +1,12 @@
-<?php include 'config.php'; ?>
+<?php 
+	include 'config.php'; 
+
+	session_start();
+
+	session_unset();
+
+	session_destroy();
+?>
 <html>
 <head>
 	<title></title>
