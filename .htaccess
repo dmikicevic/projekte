@@ -1,3 +1,1 @@
 # weiterleitung dass man direkt auf die Home seite kommt
-RewriteEngine on
-RewriteRule ^$ /index.php?id=home [R=301,L]

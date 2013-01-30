@@ -1,8 +1,15 @@
+<script language="JavaScript" src="<?$BASE_PATH?>../js/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
+<script language="JavaScript" src="<?$BASE_PATH?>../js/tinymice_controlls.js"></script>
+
 <div class="middle_fix">
 
 	<?php if (isset($_GET['id'])) { ?>
 		<?php if ($_GET['id'] == "adminHome") { ?>
 			<h4>Home</h4> <!-- wysiwyg editor einfügen zum Home Seite Bearbeiten -->
+			<form method="post" action="../../index.php?id=home">
+                <textarea name="content" style="width:100%"></textarea>
+                <input type="submit" value="Save" />
+			</form>
 		<? } ?>
 	<? } ?>
 

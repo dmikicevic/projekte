@@ -10,6 +10,7 @@
 <html>
 <head>
 	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="<?$BASE_PATH?>css/global.css" />
 	<link rel="stylesheet" type="text/css" href="<?$BASE_PATH?>css/style.css" />
 </head>
