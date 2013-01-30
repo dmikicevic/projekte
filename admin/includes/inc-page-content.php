@@ -7,7 +7,7 @@
 		<?php if ($_GET['id'] == "adminHome") { ?>
 			<h4>Home</h4> <!-- wysiwyg editor einfügen zum Home Seite Bearbeiten -->
 			<form method="post" action="../../index.php?id=home">
-                <textarea name="content" style="width:100%"></textarea>
+                <textarea name="content" id="tinymice" style="width:100%"></textarea>
                 <input type="submit" value="Save" />
 			</form>
 		<? } ?>
