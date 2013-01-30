@@ -20,5 +20,4 @@
 
 	    die('keine Verbindung möglich: ' . mysql_error());
 	}
-	mysql_close($db_link );
 ?>

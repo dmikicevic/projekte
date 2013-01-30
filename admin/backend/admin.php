@@ -10,6 +10,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="<?= $BASE_PATH;?>css/global.css" />
 	<link rel="stylesheet" type="text/css" href="<?= $BASE_PATH;?>css/style.css" />
+	<script type="text/javascript" src="<?= $BASE_PATH;?>admin/js/admin_base.js"></script> <!-- Admin JS -->
 </head>
 <body>
 	<div class="holder cf">
