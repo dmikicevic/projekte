@@ -110,9 +110,23 @@ p{
 .content_right{
 	float: left;
 	width: 215px;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .content_right input{
-	margin-top: 10px;
+	margin-top: 12px;
+}
+
+.content_right textarea{
+	margin-top: 18px;
+}
+
+.content_next_right{
+	float: left;
+	width: 400px;
+	margin-left: 50px;
+	
+
+	position: relative;
+	top: -63px;
 }
