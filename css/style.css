@@ -13,11 +13,11 @@
 .sidebar_right{
 	float: right;
 	width: 250px;
-	height: 621px;
+	height: 500px;
 	border-left: solid 2px black;
+	border-bottom: solid 2px black;
 }
 
 .sidebar_right img{
 	width: 230px;
-	height: 230px;
 }

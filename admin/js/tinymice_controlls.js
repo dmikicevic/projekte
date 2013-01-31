@@ -2,7 +2,7 @@
 		tinyMCE.init({
 		        // General options
 		        mode : "exact",
-		        elements : "tinymice";
+		        elements : "tinymice",
 		        theme : "advanced",
 		        plugins : "autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
 
